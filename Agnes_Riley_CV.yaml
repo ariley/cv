@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Agnes B. Riley
   location: Sacramento, CA
@@ -208,10 +208,6 @@ cv:
 
 design:
   theme: classic
-sections:
-  show_time_spans_in: []
-locale:
-  language: english
 
-settings:
-  current_date: '2025-12-28'
+locale:
+  language: en
