@@ -30,7 +30,7 @@ jobs:
           python-version: '3.11'
       
       - name: Install dependencies
-        run: pip install rendercv pyyaml
+        run: pip install "rendercv[full]" pyyaml
       
       - name: Generate data.js from YAML
         run: python build_data.py
