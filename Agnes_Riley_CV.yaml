@@ -1,0 +1,217 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
+cv:
+  name: Agnes B. Riley
+  location: Sacramento, CA
+  email: ariley@gmail.com
+  phone: "+1 917 660 7221"
+  website: https://www.credly.com/users/agnes-riley
+  social_networks:
+    - network: LinkedIn
+      username: agnesriley
+
+  sections:
+    summary:
+      - Seasoned IT professional with over twenty years of IT and process management experience. Change agent and problem solver with a passion for technology. Skilled at completing multiple projects on time and within budget.
+
+    skills:
+      - label: Core Competencies
+        details: Business analysis, Project management, Process and standards definition, Software Engineering
+      - label: Development
+        details: FileMaker, HTML, CSS, JavaScript, SQL, Git, CI/CD, NextJS, AstroJS, TailwindCSS
+      - label: Infrastructure
+        details: Servers (Mac, Linux, Windows), Networking, Firewalls, Google Cloud, AWS
+      - label: Tools
+        details: Adobe Suite, Photography, Video Editing, Project Management (Jira, Miro), Tableau
+
+    experience:
+      - company: Claris, An Apple Company
+        position: Sr. Product Manager (IC)
+        start_date: 2025-01
+        end_date: 2025-10
+        location: Sunnyvale, CA
+        highlights:
+          - Lead product discovery and development for features enhancing security, user experience, and platform
+          - Defined and prioritized product initiatives in collaboration with engineering, design, and cross-functional teams
+          - Used customer feedback, analytics, and market research to guide roadmap decisions across the FileMaker platform
+          - Executed product vision on analytics and providing updates to senior leadership to ensure alignment with strategic goals
+
+      - company: Lawrence Livermore National Laboratory
+        position: Software Engineer (FileMaker, web developer)
+        start_date: 2023-06
+        end_date: 2024-10
+        location: Livermore, CA
+        highlights:
+          - "Requirements Analysis: Conducted requirements analysis to identify business needs, document functional specifications, and ensure alignment with project objectives"
+          - "Design Specifications Development: Created comprehensive design specifications and mind maps, along with schema designs and entity relationship models for apps"
+          - "Charting and Metrics: Utilize HTML, JavaScript, and CSS to develop analytical tools that improve team efficiency"
+          - "Tableau Integration: Seamlessly integrate analytical tools for enhanced data visualization from anywhere"
+          - "Dynamic Website Development: Build modern, interactive websites featuring rotating schedules and maps using AstroJS, HTML, TailwindCSS with continuous deployment"
+          - "Issue Resolution: Address user concerns, data discrepancies, and code defects efficiently"
+
+      - company: Nutek Bravo
+        position: Director, Information Technology
+        start_date: 2022-03
+        end_date: 2023-02
+        location: Hayward, CA
+        highlights:
+          - General IT operations management (Meraki firewall, Microsoft 365, Ring Central, Zoho Google Cloud, etc.)
+          - Process analysis and workflow creation (workflow charts, etc.)
+          - FileMaker database Development (from concept to realization including 21 CFR Part 11 compliance and following FDA guidelines on principles of software validation)
+          - Front-end development (NextJS, HTML, TailwindCSS, CI/CD)
+          - Google Cloud Apps (App Engine, Compute Engine, Cloud Storage, etc.)
+          - Providing phone, chat, remote, or in-person support
+          - Two-way data sync between FileMaker and Web Apps (FMBetterforms, JSON, JavaScript)
+
+      - company: DriveSavers
+        position: Solutions Architect
+        start_date: 2018-12
+        end_date: 2022-02
+        location: Novato, CA
+        highlights:
+          - Improved work efficiency of sales team by at least 20% via process automation
+          - Improved shipping efficiency by mass-production of shipping labels and mobile app
+          - Established improved process analysis and workflow management
+          - Refinement and improvement of FileMaker-driven systems (desktop, mobile and web)
+          - Data analysis, conversion, and normalization
+          - Setup and maintenance of FileMaker Servers (Mac OS, Windows, Linux)
+          - Providing phone, chat, remote, or in-person support
+          - FileMaker to web Connectivity via ESS, JavaScript, JSON (FMBetterforms)
+
+      - company: Soliant Consulting
+        position: Sr. Application Developer
+        start_date: 2016-03
+        end_date: 2018-12
+        location: Burlingame, CA
+        highlights:
+          - Identified gaps in the process and improved workflow
+          - Designed and implemented FileMaker-powered apps (mobile and desktop)
+          - Data analysis, conversion of old systems, and normalization
+          - Installation and maintenance of FileMaker Server
+          - Web Connectivity via ESS or XML, JAVASCRIPT and JSON
+
+      - company: ZeroBlue Technology Solutions
+        position: Owner
+        start_date: 2008-09
+        end_date: present
+        location: Sacramento, CA
+        highlights:
+          - Drives process analysis to create better workflow
+          - Designs and implements FileMaker Pro database-powered solutions
+          - Performs data analysis, conversion, and normalization
+          - Deploys and manages FileMaker Servers
+          - Facilitates apps integration (WordPress, MySQL, SQL)
+          - Has a FileMaker Server Hosting business (https://www.radfm.cloud)
+
+      - company: Beezwax Datatools
+        position: Consultant
+        start_date: 2008-10
+        end_date: 2010-07
+        location: Oakland, CA
+        highlights:
+          - FileMaker Pro database development for several Apple departments, as well as other clients
+          - Expert in implementing SuperContainer and SimpleDialog-driven solutions and working in the FOCUS framework
+
+      - company: The Investor Relations Group
+        position: Chief Technology Officer
+        start_date: 2006-02
+        end_date: 2008-08
+        location: New York, NY
+        highlights:
+          - Improved worker efficiency by saving at least 2 hrs/day/employee resulting in over 1 million-dollar savings per year
+          - Oversaw technical staff, contractors, and outsourced IT services
+          - Developed and documented IT policies, processes, and procedures
+          - Prioritization and allocation of IT resources to competing needs
+          - Improved company efficiency by developing over 15 complex FileMaker Pro Databases (that reduce administrative time by 2 hours per employee per workday, achieving 25% more productivity)
+          - Designed, specified, managed, and led rich media content portal projects
+          - Created and managed the MicroCaptivations® email campaign to over 190,000 investors, brokers, and money managers
+          - Implemented new network configuration with 1000 BASE-T network, additional Cisco wireless APs, and PIX Firewall with VPN for remote office access
+          - Produced websites; oversaw design and development from concept to launch
+
+      - company: New York Hotel Trades Council/Local 6
+        position: Director, Information Technology
+        start_date: 2002-07
+        end_date: 2005-07
+        location: New York, NY
+        highlights:
+          - Oversaw all aspects of technology for the organization, including purchasing, initial setup and configuration; desktop, network, and server maintenance (2 OS X, Windows 2000, 2003, Linux AS and NAS)
+          - Proactively improved server infrastructure by converting the FileMaker server from Mac to Linux, resulting in greater productivity, 100% uptime, and enhanced stability for over a hundred users
+          - Updated an obsolete mail server to one that handles three domains and flawlessly processes over 29,000 attempts at access a day
+          - Produced the www.savetheplaza.com website and was responsible for all photography, imaging, design, formatting, and scripting, from concept to launch
+          - Implemented new network configuration with 5 roaming wireless routers Cisco switches and PIX Firewall with VPN for remote office access
+
+      - company: Apple Computer, Inc.
+        position: Acting Mac Genius
+        start_date: 2001-11
+        end_date: 2002-07
+        location: New York, NY
+        highlights:
+          - Apple-certified technician in a fast-paced retail environment
+          - Top-ranked hardware/software salesperson
+          - Consistently offered pre-sales advice and after-sales technical support and demonstrated technical knowledge that established solid client trust, bringing repeat clients, and increasing revenue
+          - Performed photography training and held education presentations
+
+      - company: Budapest Business Journal
+        position: Advertising Executive/Manager
+        start_date: 1996-01
+        end_date: 1999-12
+        location: Budapest, Hungary
+        highlights:
+          - "#1 sales rep for Book of Years publication yearly sales"
+          - Doubled revenue by doubling advertising area in publication
+          - Solely responsible for hiring and training advertising staff
+          - Created databases using ACT! and FileMaker Pro
+
+    certifications:
+      - bullet: AI For Everyone (Coursera) - 2024
+      - bullet: AWS Cloud Practitioner (AWS) - 2024
+      - bullet: FileMaker Desktop and Server (all latest) - 2024
+      - bullet: Apple Desktop Technician Certification - 2002
+
+    education:
+      - institution: AWS Cloud Institute
+        area: Cloud Computing
+        start_date: 2024-01
+        end_date: present
+        location: Online
+        highlights:
+          - Part-time program
+
+      - institution: Coursera
+        area: Google UX Design
+        start_date: 2005-01
+        end_date: 2006-12
+        location: Online
+
+      - institution: Fashion Institute of Technology
+        area: Photography
+        start_date: 1998-01
+        end_date: 1999-12
+        location: New York, NY
+
+      - institution: Euro-Contact Business School
+        area: Business Management, Marketing and Accounting
+        start_date: 1992-01
+        end_date: 1993-12
+        location: Budapest, Hungary
+
+      - institution: Hungarian Journalists' Association
+        area: Journalism
+        start_date: 1992-01
+        end_date: 1993-12
+        location: Budapest, Hungary
+
+      - institution: University of Miskolc
+        area: English and Asian Studies
+        start_date: 1990-01
+        end_date: 1991-12
+        location: Miskolc, Hungary
+
+design:
+  theme: classic
+sections:
+  show_time_spans_in: []
+locale:
+  language: english
+
+settings:
+  current_date: '2025-12-28'
