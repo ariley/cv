@@ -5,57 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Agnes B. Riley - CV</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @media print {
+            body { background: white !important; }
+            .no-print { display: none !important; }
+        }
+    </style>
 </head>
-<body class="bg-gradient-to-br from-slate-50 to-blue-50 min-h-screen py-8 px-4">
-    <div class="max-w-5xl mx-auto bg-white shadow-2xl rounded-lg overflow-hidden">
-        <header class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-10">
-            <h1 class="text-5xl font-bold mb-2">Agnes B. Riley</h1>
-            <p class="text-xl text-blue-100 mb-6">IT Professional & Solutions Architect</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
-                <div>📞 +1 917 660 7221</div>
-                <div>✉️ <a href="mailto:ariley@gmail.com" class="hover:underline">ariley@gmail.com</a></div>
-                <div>📍 Sacramento, CA</div>
-                <div>🔗 <a href="https://linkedin.com/in/agnesriley" class="hover:underline">LinkedIn</a> | <a href="https://www.credly.com/users/agnes-riley" class="hover:underline">Credly</a></div>
+<body class="bg-gray-50 py-6 px-4">
+    <div class="max-w-6xl mx-auto bg-white shadow-lg">
+        
+        <!-- Header -->
+        <header class="bg-gradient-to-r from-blue-700 to-blue-800 text-white px-8 py-6">
+            <h1 class="text-4xl font-bold mb-2">Agnes B. Riley</h1>
+            <p class="text-lg text-blue-100 mb-3">IT Professional & Solutions Architect</p>
+            <div class="flex flex-wrap gap-x-6 gap-y-1 text-sm">
+                <span>📞 +1 917 660 7221</span>
+                <span>✉️ <a href="mailto:ariley@gmail.com" class="hover:underline">ariley@gmail.com</a></span>
+                <span>📍 Sacramento, CA</span>
+                <span>🔗 <a href="https://linkedin.com/in/agnesriley" class="hover:underline">LinkedIn</a></span>
+                <span><a href="https://www.credly.com/users/agnes-riley" class="hover:underline">Credly</a></span>
             </div>
         </header>
         
-        <div class="px-8 py-8">
-            <section class="mb-8">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4 pb-2 border-b-4 border-blue-600">Summary</h2>
-                <p class="text-gray-700 leading-relaxed text-lg">Seasoned IT professional with over twenty years of IT and process management experience. Change agent and problem solver with a passion for technology. Skilled at completing multiple projects on time and within budget.</p>
+        <div class="px-8 py-6">
+            
+            <!-- Summary -->
+            <section class="mb-6">
+                <h2 class="text-xl font-bold text-gray-800 mb-2 pb-1 border-b-2 border-blue-600">Summary</h2>
+                <p class="text-gray-700 text-sm leading-relaxed">Seasoned IT professional with over twenty years of IT and process management experience. Change agent and problem solver with a passion for technology. Skilled at completing multiple projects on time and within budget.</p>
             </section>
 
-            <section class="mb-8">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4 pb-2 border-b-4 border-blue-600">Skills</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-5 rounded-xl border-l-4 border-blue-600 shadow-md hover:shadow-lg transition">
-                        <h3 class="font-bold text-blue-900 mb-2 text-lg">Core Competencies</h3>
-                        <p class="text-gray-700">Business analysis, Project management, Process and standards definition, Software Engineering</p>
-                    </div>
-                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-5 rounded-xl border-l-4 border-blue-600 shadow-md hover:shadow-lg transition">
-                        <h3 class="font-bold text-blue-900 mb-2 text-lg">Development</h3>
-                        <p class="text-gray-700">FileMaker, HTML, CSS, JavaScript, SQL, Git, CI/CD, NextJS, AstroJS, TailwindCSS</p>
-                    </div>
-                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-5 rounded-xl border-l-4 border-blue-600 shadow-md hover:shadow-lg transition">
-                        <h3 class="font-bold text-blue-900 mb-2 text-lg">Infrastructure</h3>
-                        <p class="text-gray-700">Servers (Mac, Linux, Windows), Networking, Firewalls, Google Cloud, AWS</p>
-                    </div>
-                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-5 rounded-xl border-l-4 border-blue-600 shadow-md hover:shadow-lg transition">
-                        <h3 class="font-bold text-blue-900 mb-2 text-lg">Tools</h3>
-                        <p class="text-gray-700">Adobe Suite, Photography, Video Editing, Project Management (Jira, Miro), Tableau</p>
-                    </div>
+            <!-- Skills -->
+            <section class="mb-6">
+                <h2 class="text-xl font-bold text-gray-800 mb-2 pb-1 border-b-2 border-blue-600">Skills</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2 text-sm">
+                    <div><strong class="text-blue-700">Core Competencies:</strong> Business analysis, Project management, Process and standards definition, Software Engineering</div>
+                    <div><strong class="text-blue-700">Development:</strong> FileMaker, HTML, CSS, JavaScript, SQL, Git, CI/CD, NextJS, AstroJS, TailwindCSS</div>
+                    <div><strong class="text-blue-700">Infrastructure:</strong> Servers (Mac, Linux, Windows), Networking, Firewalls, Google Cloud, AWS</div>
+                    <div><strong class="text-blue-700">Tools:</strong> Adobe Suite, Photography, Video Editing, Project Management (Jira, Miro), Tableau</div>
                 </div>
             </section>
 
-            <section class="mb-8">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4 pb-2 border-b-4 border-blue-600">Experience</h2>
-                <div class="space-y-6">
+            <!-- Experience -->
+            <section class="mb-6">
+                <h2 class="text-xl font-bold text-gray-800 mb-2 pb-1 border-b-2 border-blue-600">Experience</h2>
+                <div class="space-y-4">
                     
-                    <div class="border-l-4 border-blue-500 pl-4 hover:bg-blue-50 p-4 rounded transition">
-                        <h3 class="text-xl font-bold text-gray-900">Sr. Product Manager (IC)</h3>
-                        <p class="text-blue-600 font-semibold">Claris, An Apple Company</p>
-                        <p class="text-sm text-gray-600 mb-2">Sunnyvale, CA | Jan 2025 – Oct 2025</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                    <div class="border-l-2 border-blue-500 pl-3">
+                        <div class="flex justify-between items-baseline flex-wrap">
+                            <h3 class="font-bold text-gray-900">Sr. Product Manager (IC)</h3>
+                            <span class="text-xs text-gray-600">Jan 2025 – Oct 2025</span>
+                        </div>
+                        <p class="text-sm text-blue-700 font-semibold">Claris, An Apple Company | Sunnyvale, CA</p>
+                        <ul class="list-disc list-inside text-xs text-gray-700 mt-1 space-y-0.5">
                             <li>Lead product discovery and development for features enhancing security, user experience, and platform</li>
                             <li>Defined and prioritized product initiatives in collaboration with engineering, design, and cross-functional teams</li>
                             <li>Used customer feedback, analytics, and market research to guide roadmap decisions across the FileMaker platform</li>
@@ -63,11 +66,13 @@
                         </ul>
                     </div>
 
-                    <div class="border-l-4 border-blue-500 pl-4 hover:bg-blue-50 p-4 rounded transition">
-                        <h3 class="text-xl font-bold text-gray-900">Software Engineer (FileMaker, web developer)</h3>
-                        <p class="text-blue-600 font-semibold">Lawrence Livermore National Laboratory</p>
-                        <p class="text-sm text-gray-600 mb-2">Livermore, CA | June 2023 – Oct 2024</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                    <div class="border-l-2 border-blue-500 pl-3">
+                        <div class="flex justify-between items-baseline flex-wrap">
+                            <h3 class="font-bold text-gray-900">Software Engineer (FileMaker, web developer)</h3>
+                            <span class="text-xs text-gray-600">June 2023 – Oct 2024</span>
+                        </div>
+                        <p class="text-sm text-blue-700 font-semibold">Lawrence Livermore National Laboratory | Livermore, CA</p>
+                        <ul class="list-disc list-inside text-xs text-gray-700 mt-1 space-y-0.5">
                             <li>Requirements Analysis: Conducted requirements analysis to identify business needs, document functional specifications, and ensure alignment with project objectives</li>
                             <li>Design Specifications Development: Created comprehensive design specifications and mind maps, along with schema designs and entity relationship models for apps</li>
                             <li>Charting and Metrics: Utilize HTML, JavaScript, and CSS to develop analytical tools that improve team efficiency</li>
@@ -77,11 +82,13 @@
                         </ul>
                     </div>
 
-                    <div class="border-l-4 border-blue-500 pl-4 hover:bg-blue-50 p-4 rounded transition">
-                        <h3 class="text-xl font-bold text-gray-900">Director, Information Technology</h3>
-                        <p class="text-blue-600 font-semibold">Nutek Bravo</p>
-                        <p class="text-sm text-gray-600 mb-2">Hayward, CA | Mar 2022 – Feb 2023</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                    <div class="border-l-2 border-blue-500 pl-3">
+                        <div class="flex justify-between items-baseline flex-wrap">
+                            <h3 class="font-bold text-gray-900">Director, Information Technology</h3>
+                            <span class="text-xs text-gray-600">Mar 2022 – Feb 2023</span>
+                        </div>
+                        <p class="text-sm text-blue-700 font-semibold">Nutek Bravo | Hayward, CA</p>
+                        <ul class="list-disc list-inside text-xs text-gray-700 mt-1 space-y-0.5">
                             <li>General IT operations management (Meraki firewall, Microsoft 365, Ring Central, Zoho Google Cloud, etc.)</li>
                             <li>Process analysis and workflow creation (workflow charts, etc.)</li>
                             <li>FileMaker database Development (from concept to realization including 21 CFR Part 11 compliance and following FDA guidelines on principles of software validation)</li>
@@ -92,11 +99,13 @@
                         </ul>
                     </div>
 
-                    <div class="border-l-4 border-blue-500 pl-4 hover:bg-blue-50 p-4 rounded transition">
-                        <h3 class="text-xl font-bold text-gray-900">Solutions Architect</h3>
-                        <p class="text-blue-600 font-semibold">DriveSavers</p>
-                        <p class="text-sm text-gray-600 mb-2">Novato, CA | Dec 2018 – Feb 2022</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                    <div class="border-l-2 border-blue-500 pl-3">
+                        <div class="flex justify-between items-baseline flex-wrap">
+                            <h3 class="font-bold text-gray-900">Solutions Architect</h3>
+                            <span class="text-xs text-gray-600">Dec 2018 – Feb 2022</span>
+                        </div>
+                        <p class="text-sm text-blue-700 font-semibold">DriveSavers | Novato, CA</p>
+                        <ul class="list-disc list-inside text-xs text-gray-700 mt-1 space-y-0.5">
                             <li>Improved work efficiency of sales team by at least 20% via process automation</li>
                             <li>Improved shipping efficiency by mass-production of shipping labels and mobile app</li>
                             <li>Established improved process analysis and workflow management</li>
@@ -108,11 +117,13 @@
                         </ul>
                     </div>
 
-                    <div class="border-l-4 border-blue-500 pl-4 hover:bg-blue-50 p-4 rounded transition">
-                        <h3 class="text-xl font-bold text-gray-900">Sr. Application Developer</h3>
-                        <p class="text-blue-600 font-semibold">Soliant Consulting</p>
-                        <p class="text-sm text-gray-600 mb-2">Burlingame, CA | Mar 2016 – Dec 2018</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                    <div class="border-l-2 border-blue-500 pl-3">
+                        <div class="flex justify-between items-baseline flex-wrap">
+                            <h3 class="font-bold text-gray-900">Sr. Application Developer</h3>
+                            <span class="text-xs text-gray-600">Mar 2016 – Dec 2018</span>
+                        </div>
+                        <p class="text-sm text-blue-700 font-semibold">Soliant Consulting | Burlingame, CA</p>
+                        <ul class="list-disc list-inside text-xs text-gray-700 mt-1 space-y-0.5">
                             <li>Identified gaps in the process and improved workflow</li>
                             <li>Designed and implemented FileMaker-powered apps (mobile and desktop)</li>
                             <li>Data analysis, conversion of old systems, and normalization</li>
@@ -121,11 +132,13 @@
                         </ul>
                     </div>
 
-                    <div class="border-l-4 border-blue-500 pl-4 hover:bg-blue-50 p-4 rounded transition">
-                        <h3 class="text-xl font-bold text-gray-900">Owner</h3>
-                        <p class="text-blue-600 font-semibold">ZeroBlue Technology Solutions</p>
-                        <p class="text-sm text-gray-600 mb-2">Sacramento, CA | Sept 2008 – present</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                    <div class="border-l-2 border-blue-500 pl-3">
+                        <div class="flex justify-between items-baseline flex-wrap">
+                            <h3 class="font-bold text-gray-900">Owner</h3>
+                            <span class="text-xs text-gray-600">Sept 2008 – present</span>
+                        </div>
+                        <p class="text-sm text-blue-700 font-semibold">ZeroBlue Technology Solutions | Sacramento, CA</p>
+                        <ul class="list-disc list-inside text-xs text-gray-700 mt-1 space-y-0.5">
                             <li>Drives process analysis to create better workflow</li>
                             <li>Designs and implements FileMaker Pro database-powered solutions</li>
                             <li>Performs data analysis, conversion, and normalization</li>
@@ -135,21 +148,25 @@
                         </ul>
                     </div>
 
-                    <div class="border-l-4 border-blue-500 pl-4 hover:bg-blue-50 p-4 rounded transition">
-                        <h3 class="text-xl font-bold text-gray-900">Consultant</h3>
-                        <p class="text-blue-600 font-semibold">Beezwax Datatools</p>
-                        <p class="text-sm text-gray-600 mb-2">Oakland, CA | Oct 2008 – July 2010</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                    <div class="border-l-2 border-blue-500 pl-3">
+                        <div class="flex justify-between items-baseline flex-wrap">
+                            <h3 class="font-bold text-gray-900">Consultant</h3>
+                            <span class="text-xs text-gray-600">Oct 2008 – July 2010</span>
+                        </div>
+                        <p class="text-sm text-blue-700 font-semibold">Beezwax Datatools | Oakland, CA</p>
+                        <ul class="list-disc list-inside text-xs text-gray-700 mt-1 space-y-0.5">
                             <li>FileMaker Pro database development for several Apple departments, as well as other clients</li>
                             <li>Expert in implementing SuperContainer and SimpleDialog-driven solutions and working in the FOCUS framework</li>
                         </ul>
                     </div>
 
-                    <div class="border-l-4 border-blue-500 pl-4 hover:bg-blue-50 p-4 rounded transition">
-                        <h3 class="text-xl font-bold text-gray-900">Chief Technology Officer</h3>
-                        <p class="text-blue-600 font-semibold">The Investor Relations Group</p>
-                        <p class="text-sm text-gray-600 mb-2">New York, NY | Feb 2006 – Aug 2008</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                    <div class="border-l-2 border-blue-500 pl-3">
+                        <div class="flex justify-between items-baseline flex-wrap">
+                            <h3 class="font-bold text-gray-900">Chief Technology Officer</h3>
+                            <span class="text-xs text-gray-600">Feb 2006 – Aug 2008</span>
+                        </div>
+                        <p class="text-sm text-blue-700 font-semibold">The Investor Relations Group | New York, NY</p>
+                        <ul class="list-disc list-inside text-xs text-gray-700 mt-1 space-y-0.5">
                             <li>Improved worker efficiency by saving at least 2 hrs/day/employee resulting in over 1 million-dollar savings per year</li>
                             <li>Oversaw technical staff, contractors, and outsourced IT services</li>
                             <li>Developed and documented IT policies, processes, and procedures</li>
@@ -162,11 +179,13 @@
                         </ul>
                     </div>
 
-                    <div class="border-l-4 border-blue-500 pl-4 hover:bg-blue-50 p-4 rounded transition">
-                        <h3 class="text-xl font-bold text-gray-900">Director, Information Technology</h3>
-                        <p class="text-blue-600 font-semibold">New York Hotel Trades Council/Local 6</p>
-                        <p class="text-sm text-gray-600 mb-2">New York, NY | July 2002 – July 2005</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                    <div class="border-l-2 border-blue-500 pl-3">
+                        <div class="flex justify-between items-baseline flex-wrap">
+                            <h3 class="font-bold text-gray-900">Director, Information Technology</h3>
+                            <span class="text-xs text-gray-600">July 2002 – July 2005</span>
+                        </div>
+                        <p class="text-sm text-blue-700 font-semibold">New York Hotel Trades Council/Local 6 | New York, NY</p>
+                        <ul class="list-disc list-inside text-xs text-gray-700 mt-1 space-y-0.5">
                             <li>Oversaw all aspects of technology for the organization, including purchasing, initial setup and configuration; desktop, network, and server maintenance (2 OS X, Windows 2000, 2003, Linux AS and NAS)</li>
                             <li>Proactively improved server infrastructure by converting the FileMaker server from Mac to Linux, resulting in greater productivity, 100% uptime, and enhanced stability for over a hundred users</li>
                             <li>Updated an obsolete mail server to one that handles three domains and flawlessly processes over 29,000 attempts at access a day</li>
@@ -175,11 +194,13 @@
                         </ul>
                     </div>
 
-                    <div class="border-l-4 border-blue-500 pl-4 hover:bg-blue-50 p-4 rounded transition">
-                        <h3 class="text-xl font-bold text-gray-900">Acting Mac Genius</h3>
-                        <p class="text-blue-600 font-semibold">Apple Computer, Inc.</p>
-                        <p class="text-sm text-gray-600 mb-2">New York, NY | Nov 2001 – July 2002</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                    <div class="border-l-2 border-blue-500 pl-3">
+                        <div class="flex justify-between items-baseline flex-wrap">
+                            <h3 class="font-bold text-gray-900">Acting Mac Genius</h3>
+                            <span class="text-xs text-gray-600">Nov 2001 – July 2002</span>
+                        </div>
+                        <p class="text-sm text-blue-700 font-semibold">Apple Computer, Inc. | New York, NY</p>
+                        <ul class="list-disc list-inside text-xs text-gray-700 mt-1 space-y-0.5">
                             <li>Apple-certified technician in a fast-paced retail environment</li>
                             <li>Top-ranked hardware/software salesperson</li>
                             <li>Consistently offered pre-sales advice and after-sales technical support and demonstrated technical knowledge that established solid client trust, bringing repeat clients, and increasing revenue</li>
@@ -187,11 +208,13 @@
                         </ul>
                     </div>
 
-                    <div class="border-l-4 border-blue-500 pl-4 hover:bg-blue-50 p-4 rounded transition">
-                        <h3 class="text-xl font-bold text-gray-900">Advertising Executive/Manager</h3>
-                        <p class="text-blue-600 font-semibold">Budapest Business Journal</p>
-                        <p class="text-sm text-gray-600 mb-2">Budapest, Hungary | Jan 1996 – Dec 1999</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                    <div class="border-l-2 border-blue-500 pl-3">
+                        <div class="flex justify-between items-baseline flex-wrap">
+                            <h3 class="font-bold text-gray-900">Advertising Executive/Manager</h3>
+                            <span class="text-xs text-gray-600">Jan 1996 – Dec 1999</span>
+                        </div>
+                        <p class="text-sm text-blue-700 font-semibold">Budapest Business Journal | Budapest, Hungary</p>
+                        <ul class="list-disc list-inside text-xs text-gray-700 mt-1 space-y-0.5">
                             <li>#1 sales rep for Book of Years publication yearly sales</li>
                             <li>Doubled revenue by doubling advertising area in publication</li>
                             <li>Solely responsible for hiring and training advertising staff</li>
@@ -202,56 +225,57 @@
                 </div>
             </section>
 
-            <section class="mb-8">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4 pb-2 border-b-4 border-blue-600">Certifications</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    <div class="flex items-start gap-2"><span class="text-blue-600 text-xl">✓</span><span>AI For Everyone (Coursera) - 2024</span></div>
-                    <div class="flex items-start gap-2"><span class="text-blue-600 text-xl">✓</span><span>AWS Cloud Practitioner (AWS) - 2024</span></div>
-                    <div class="flex items-start gap-2"><span class="text-blue-600 text-xl">✓</span><span>FileMaker Desktop and Server (all latest) - 2024</span></div>
-                    <div class="flex items-start gap-2"><span class="text-blue-600 text-xl">✓</span><span>Apple Desktop Technician Certification - 2002</span></div>
-                </div>
-            </section>
+            <!-- Two Column Layout for Certifications and Education -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <!-- Certifications -->
+                <section>
+                    <h2 class="text-xl font-bold text-gray-800 mb-2 pb-1 border-b-2 border-blue-600">Certifications</h2>
+                    <ul class="space-y-1 text-xs text-gray-700">
+                        <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✓</span><span>AI For Everyone (Coursera) - 2024</span></li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✓</span><span>AWS Cloud Practitioner (AWS) - 2024</span></li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✓</span><span>FileMaker Desktop and Server (all latest) - 2024</span></li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✓</span><span>Apple Desktop Technician Certification - 2002</span></li>
+                    </ul>
+                </section>
 
-            <section class="mb-8">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4 pb-2 border-b-4 border-blue-600">Education</h2>
-                <div class="space-y-4">
-                    <div class="border-l-4 border-gray-300 pl-4 hover:bg-gray-50 p-3 rounded transition">
-                        <h3 class="font-bold text-gray-900">AWS Cloud Institute</h3>
-                        <p class="text-gray-700">Cloud Computing | Online</p>
-                        <p class="text-sm text-gray-600">Jan 2024 – present</p>
-                        <p class="text-sm text-gray-600 italic">Part-time program</p>
+                <!-- Education -->
+                <section>
+                    <h2 class="text-xl font-bold text-gray-800 mb-2 pb-1 border-b-2 border-blue-600">Education</h2>
+                    <div class="space-y-2 text-xs">
+                        <div>
+                            <p class="font-bold text-gray-900">AWS Cloud Institute</p>
+                            <p class="text-gray-700">Cloud Computing | Jan 2024 – present</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Coursera</p>
+                            <p class="text-gray-700">Google UX Design | 2005 – 2006</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Fashion Institute of Technology</p>
+                            <p class="text-gray-700">Photography | New York, NY</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Euro-Contact Business School</p>
+                            <p class="text-gray-700">Business Management, Marketing and Accounting | Budapest, Hungary</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Hungarian Journalists' Association</p>
+                            <p class="text-gray-700">Journalism | Budapest, Hungary</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">University of Miskolc</p>
+                            <p class="text-gray-700">English and Asian Studies | Miskolc, Hungary</p>
+                        </div>
                     </div>
-                    <div class="border-l-4 border-gray-300 pl-4 hover:bg-gray-50 p-3 rounded transition">
-                        <h3 class="font-bold text-gray-900">Coursera</h3>
-                        <p class="text-gray-700">Google UX Design | Online</p>
-                        <p class="text-sm text-gray-600">Jan 2005 – Dec 2006</p>
-                    </div>
-                    <div class="border-l-4 border-gray-300 pl-4 hover:bg-gray-50 p-3 rounded transition">
-                        <h3 class="font-bold text-gray-900">Fashion Institute of Technology</h3>
-                        <p class="text-gray-700">Photography | New York, NY</p>
-                        <p class="text-sm text-gray-600">Jan 1998 – Dec 1999</p>
-                    </div>
-                    <div class="border-l-4 border-gray-300 pl-4 hover:bg-gray-50 p-3 rounded transition">
-                        <h3 class="font-bold text-gray-900">Euro-Contact Business School</h3>
-                        <p class="text-gray-700">Business Management, Marketing and Accounting | Budapest, Hungary</p>
-                        <p class="text-sm text-gray-600">Jan 1992 – Dec 1993</p>
-                    </div>
-                    <div class="border-l-4 border-gray-300 pl-4 hover:bg-gray-50 p-3 rounded transition">
-                        <h3 class="font-bold text-gray-900">Hungarian Journalists' Association</h3>
-                        <p class="text-gray-700">Journalism | Budapest, Hungary</p>
-                        <p class="text-sm text-gray-600">Jan 1992 – Dec 1993</p>
-                    </div>
-                    <div class="border-l-4 border-gray-300 pl-4 hover:bg-gray-50 p-3 rounded transition">
-                        <h3 class="font-bold text-gray-900">University of Miskolc</h3>
-                        <p class="text-gray-700">English and Asian Studies | Miskolc, Hungary</p>
-                        <p class="text-sm text-gray-600">Jan 1990 – Dec 1991</p>
-                    </div>
-                </div>
-            </section>
+                </section>
+
+            </div>
+
         </div>
 
-        <footer class="bg-gray-100 px-8 py-6 text-center text-gray-600 text-sm">
-            <p>© 2025 Agnes B. Riley | Last updated: December 2024</p>
+        <footer class="bg-gray-100 px-8 py-3 text-center text-gray-600 text-xs border-t">
+            <p>© 2025 Agnes B. Riley</p>
         </footer>
     </div>
 </body>
