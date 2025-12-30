@@ -184,6 +184,18 @@ const cvData = {
         "Solely responsible for hiring and training advertising staff",
         "Created databases using ACT! and FileMaker Pro"
       ]
+    },
+    {
+      "company": "HBO (Home Box Office) Hungary",
+      "position": "Program Acquisition and Production Manager",
+      "start_date": "1993-01",
+      "end_date": "1996-12",
+      "location": "Budapest, Hungary",
+      "highlights": [
+        "Program Acquisition: Video editing and program selection for scheduling",
+        "Responsible for managing dubbing studios",
+        "Created FileMaker Pro databases for international traffic monitoring in addition to typical network administration duties, training, and support"
+      ]
     }
   ],
   "education": [

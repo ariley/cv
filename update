@@ -1,0 +1,18 @@
+#!/bin/bash
+set -e
+
+cd "$(dirname "$0")"
+
+echo "📄 Regenerating data.js from YAML..."
+python3 build_data.py
+
+echo "📑 Rendering PDF with rendercv..."
+rendercv render Agnes_Riley_CV.yaml --pdf-path rendercv_output/Agnes_Riley_CV.pdf
+
+echo "🚀 Pushing to GitHub..."
+git add .
+git commit -m "Update CV $(date +%Y-%m-%d)" || echo "Nothing to commit"
+git push
+
+echo ""
+echo "✅ Done! PDF is in rendercv_output/, website will deploy in ~1-2 minutes."
