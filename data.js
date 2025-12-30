@@ -118,7 +118,7 @@ const cvData = {
     },
     {
       "company": "Beezwax Datatools",
-      "position": "Consultant",
+      "position": "FileMaker Developer",
       "start_date": "2008-10",
       "end_date": "2010-07",
       "location": "Oakland, CA",
